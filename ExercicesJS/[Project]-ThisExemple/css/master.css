@@ -1,0 +1,24 @@
+.bloque{
+    text-align: center;
+    display: inline-block;
+    width: 18%;
+    padding: 1%;
+    height: 18vw;
+    margin-top: 25%;
+}
+.btn-display{
+    background-color: pink;
+    height: 100%;
+}
+
+#bonbon{
+    background: url("../img/sticker-mural-noel-bonbon.jpg") center;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+}
+
+#cake{
+    background: url("../img/patisserie-27910.jpg") center;
+    border-top-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+}
