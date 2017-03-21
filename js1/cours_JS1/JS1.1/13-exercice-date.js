@@ -1,15 +1,16 @@
+'use strict';   // Mode strict du JavaScript
+
 // Déclaration de trois variables.
 var lesJours;
 var lesMois;
 var maDate;
 
+
 // Affectation de deux tableaux vides à deux variables.
-lesJours = [];
+lesJours = new Array();
 lesMois  = new Array();
 
 // Affectation de valeurs aux deux tableaux.
-lesjours = ['Dimanche','Lundi','Mardi', 'Mercredi', 'Jeudi','Vendredi', 'Samedi' ];
-
 lesJours[0] = 'Dimanche';
 lesJours[1] = 'Lundi';
 lesJours[2] = 'Mardi';
@@ -36,6 +37,7 @@ maDate = new Date();
 
 // On peut aussi donner en argument à la méthode de création une chaîne de caractères :
 // maDate = new Date('2013-12-24');
+
 
 /*
  * Affichage du contenu d'une partie du tableau directement dans la page HTML.
