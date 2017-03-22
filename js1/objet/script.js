@@ -141,19 +141,85 @@
 //
 // document.write("votre resultat " + result)
 
-var ramdom;
-var computer;
+// var computer;
+// var player;
+// var random;
+//
+//
+// // Récupération du choix du joueur.
+// player = window.prompt('Que choisissez-vous : pierre, feuille ou ciseau ?');
+//
+//
+// // Récupération d'un nombre aléatoire entre 0 et 1 inclus.
+// random = Math.random();
+//
+// if(random <= 0.33)
+// {
+//     computer = 'pierre';
+// }
+// else if(random <= 0.66)
+// {
+//     computer = 'feuille';
+// }
+// else
+// {
+//     computer = 'ciseau';
+// }
+//
+// document.write("<p>Choix de l'ordinateur : " + computer + '</p>');
+//
+//
+// if(computer == player)
+// {
+//     document.write('<p>Vous avez choisi la même chose : égalité !</p>');
+// }
+// else
+// {
+//     // Le joueur et l'ordinateur n'ont pas choisi la même chose, la bataille commence !
+//
+//     switch(computer)
+//     {
+//         case 'ciseau':
+//             if(player == 'pierre')
+//             {
+//                 document.write('<p>La pierre écrase le ciseau : vous gagnez !</p>');
+//             }
+//             else // player == 'feuille'
+//             {
+//                 document.write('<p>La feuille est découpée par le ciseau : vous perdez !</p>');
+//             }
+//         break;
+//
+//         case 'feuille':
+//             if(player == 'pierre')
+//             {
+//                 document.write('<p>La pierre est enveloppée par la feuille : vous perdez !</p>');
+//             }
+//             else // player == 'ciseau'
+//             {
+//                 document.write('<p>Le ciseau découpe la feuille : vous gagnez !</p>');
+//             }
+//         break;
+//
+//         case 'pierre':
+//             if(player == 'feuille')
+//             {
+//                 document.write('<p>La feuille enveloppe la pierre : vous gagnez !</p>');
+//             }
+//             else // player == 'ciseau'
+//             {
+//                 document.write('<p>Le ciseau est écrasé par la pierre : vous perdez !</p>');
+//             }
+//         break;
+//     }
+// }
 
-ramdom = Math.random;
-if(random<=0.33) {
-	computer='pierre';
+var tableau
+
+tableau = ['Stevy', 'Mariam', 'komakan', 'annissa']
+
+document.write('<ul>')
+for (var index=0; index<=3) {
+	document.write('<li>'+followers[index]+'<li>')
 }
-ramdom = Math.random;
-else if(random<=0.66) {
-	computer='feuille';
-}
-ramdom = Math.random;
-else {
-	computer='ciseau';
-};
-alert(computer);
+document.write('<ul>')
