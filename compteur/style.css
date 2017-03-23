@@ -1,0 +1,14 @@
+body{
+    background-color: red;
+}
+
+input{
+    width: 1000px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+}
+.texte{
+    width: 1500px;
+    height: 400px;
+    margin: 0 auto;
+}
