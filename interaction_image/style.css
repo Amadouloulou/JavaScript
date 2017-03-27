@@ -1,0 +1,25 @@
+li{
+    padding: 0.5em;
+    margin: 1em;
+    border-radius: 20%;
+    list-style-type:none;
+}
+
+img{
+    border-radius: 20%;
+}
+
+li:hover{
+    background-color: silver;
+}
+
+.photo-list{
+    float: left;
+}
+
+.hide{
+    background-color: forestgreen !important;
+}
+.clear{
+    clear: both;
+}
