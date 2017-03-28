@@ -1,0 +1,78 @@
+https://jsfiddle.net/learnlab/5qmLLwvs/
+
+https://jsfiddle.net/learnlab/ejhne43h/
+
+https://jsfiddle.net/learnlab/4qedeqsj/
+
+https://jsfiddle.net/learnlab/dg823x11/
+
+https://jsfiddle.net/learnlab/6xe190g6/ menu mobile
+
+https://www.grafikart.fr/formations/debuter-javascript/ 
+
+
+PARTIE I / Developpement
+
+1. Variable - Types
+- chaîne de caractere
+- Int - Float
+- booléen (truen fall)
+- array [];
+- objet {};
+
+2. Conditions
+- if ( condition) {
+	// code à éxecuter
+}
+
+3. Boucles
+- for. // on veut repéter un code un nombre de fois connus
+- while // éxécuter un code tant que une condition est vrai
+- while (condition) {
+	// code à éxecuter
+}
+- do {code à exécuter } while ( condition )
+
+4. Fonctions
+- function maFontio,() {
+	alert('salut')
+}
+
+- maFonction();
+
+
+
+PARIE II / Interaction 
+
+1. Sélection
+- querySelector('')
+- getElementByClassName('')
+- getElementById('')
+- getElementByTagName('')
+
+2. Poser un  gestionnaire d'événement
+- elt.addEventListener('click', 'dblclick' etc...)
+
+3. Modification du DOM
+- classlist.add
+- classlist.toggle
+- classlist.remove
+elt.textContent=
+elt.innerHTML=
+elt.setAttribute();
+
+
+    Jquery      :          JS
+
+  $('li')       |  document.getElementBy
+
+  .addClass     | .classlist.add
+  .addClass     | .classlist.toggle
+  .addClass     | .classlist.remove
+
+   $(This)      |  this
+
+    .on('')     |  addEventlistener()
+    .text('')   | .textContent=
+    .html('')   | .innerHTML=
+

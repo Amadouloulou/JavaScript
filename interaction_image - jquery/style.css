@@ -9,7 +9,7 @@ img{
     border-radius: 20%;
 }
 
-li:hover{
+.remove{
     background-color: silver;
 }
 
